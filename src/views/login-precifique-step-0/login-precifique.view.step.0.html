@@ -1,0 +1,20 @@
+<section class="pai">
+
+    <section v-if="myStep == '1'">
+        <login-precifique @step="handleStep($event)"/>
+    </section>
+
+
+    <section v-if="myStep == '2'">
+        <login-precifique-code @step="handleStep($event)"/>
+    </section>
+
+    <section v-if="myStep == '3'">
+        <login-precifique-password @step="handleStep($event)"/>
+    </section>
+
+    <section v-if="myStep == '4'">
+        <login-precifique-return @step="handleStep($event)"/>
+    </section>
+
+</section>

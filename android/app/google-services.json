@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "228130038639",
+    "firebase_url": "https://pertinho-de-casa-6f823.firebaseio.com",
+    "project_id": "pertinho-de-casa-6f823",
+    "storage_bucket": "pertinho-de-casa-6f823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228130038639:android:e418afae2b488bf69c7e9a",
+        "android_client_info": {
+          "package_name": "br.com.pertinhodecasa.vendedores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228130038639-jkfcq8e0gmjm2gn7v45j31jo93sketia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFVfqKtjx7ncC73v6kAKJeOMfoicI_rEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228130038639-jkfcq8e0gmjm2gn7v45j31jo93sketia.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "228130038639-2ortv7jgvonrt3moks87n0t5smcfno9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.accenture.pertinhodecasa"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228130038639:android:0120ac262622f9779c7e9a",
+        "android_client_info": {
+          "package_name": "com.accenture.pertinhodecasa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228130038639-1p28u1h9vc2r1j486j6qkdnf8agoa9uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accenture.pertinhodecasa",
+            "certificate_hash": "11d354fab007aa8219305bf4b993f58f58a47579"
+          }
+        },
+        {
+          "client_id": "228130038639-2d66atl88nto20391g9dnbsjl42ko018.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accenture.pertinhodecasa",
+            "certificate_hash": "279860bf0b9300d5e72123b5203549102ade1e23"
+          }
+        },
+        {
+          "client_id": "228130038639-41a5kl3718e4a37thfvoj8gsc2blcumm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.accenture.pertinhodecasa",
+            "certificate_hash": "95d0c35459bdf5a7629533430985a7995d6a09a7"
+          }
+        },
+        {
+          "client_id": "228130038639-jkfcq8e0gmjm2gn7v45j31jo93sketia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFVfqKtjx7ncC73v6kAKJeOMfoicI_rEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228130038639-jkfcq8e0gmjm2gn7v45j31jo93sketia.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "228130038639-2ortv7jgvonrt3moks87n0t5smcfno9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.accenture.pertinhodecasa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "pertinho de casa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

@@ -1,0 +1,12 @@
+{
+	"appId": "br.com.pertinhodecasa.vendedores",
+	"appName": "Pertinho de Casa - Vendedores",
+	"webDir": "dist",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"plugins": {
+		"SplashScreen": {
+			"launchAutoHide": false
+		}
+	}
+}

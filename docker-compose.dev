@@ -1,0 +1,15 @@
+version: "2"
+
+ 
+
+services:
+  devadminfrontend:
+    image: devadminfrontend
+    ports:
+      - "9191:8080"
+    restart: always
+    networks:
+      docker-elk_elk:
+networks:
+  docker-elk_elk:
+    external: true

@@ -1,0 +1,15 @@
+version: "2"
+
+ 
+
+services:
+  adminfase2:
+    image: fase2
+    ports:
+      - "8091:8080"
+    restart: always
+    networks:
+      docker-elk_elk:
+networks:
+  docker-elk_elk:
+    external: true

@@ -1,0 +1,95 @@
+.card-custom-container-precifique {
+    min-height: 64vh;
+    max-height: 100vh;
+}
+
+.card-body-precifique {
+    padding-top: 25%;
+    background-color: #fff;
+    box-shadow: none !important;
+    
+
+}
+
+.button-enter-code-precifique {
+    height: 48px;
+    background: $secondary;
+    border: 1px solid $secondary;
+    border-radius: 65px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 18%;
+
+    &:disabled {
+        opacity: 0.5;
+      }
+
+}
+
+.title-login-precifique {
+    margin-bottom: 5%;
+    color: $secondary;
+}
+.header-precifique{
+    display: flex;
+    justify-content: center;
+    padding: 28px 63px;
+    height: 69px;
+    background-color: $secondary;
+    align-items: center;
+    
+
+    width: 100%;
+    box-shadow: 0 0px 10px 0 $cinza_1;
+    
+}
+
+.title-header-precifique{
+    color: #ffff; 
+    font-size: 18px;
+}
+
+
+.text-precifique {
+    padding-top: 7%; 
+    width: 99%;
+    
+}
+
+
+.card-custom-login-precifique {
+    width: 40vw;
+    border-radius: 6px !important;
+    background-color: #ffff;
+    border: none;
+    padding-bottom: 26%;
+    margin-top: 3%;
+
+    z-index: 1;
+   
+
+    @media screen and (max-width: 992px) {
+        width: 98vw;
+    }
+    
+
+    @media screen and (min-width: 400px) {
+        padding-bottom: 74%;
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+.image-precifique {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    @media screen and (max-width: 992px) {
+        img {
+            width: 160px;
+        }
+    }
+}

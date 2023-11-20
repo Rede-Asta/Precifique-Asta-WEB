@@ -1,0 +1,24 @@
+<section id="login-precifique-code">
+
+    <section class="d-flex flex-column align-items-center justify-content-center card-custom-container-precifique" v-if="!showVerificationCode">
+        <div class="header-precifique">
+            <h1 class="title-header-precifique align-items-center justify-content-center">Crie uma nova senha</h1>
+        </div>
+        <div class="card-custom-login-precifique">
+        
+            <div class="card-body-precifique m-4">
+                <div class="d-flex flex-column justify-content-initial ">
+                 
+                    <h2 class="title-login-precifique">Crie uma nova senha</h2>
+                    <p class="text-precifique">Enviamos um <b>código</b> para seu <b>e-mail</b>, por favor preencha abaixo.</p>
+                </div>
+        
+                <div class="container-form-precifique">
+                <code-precifique-form  @toStep="toStep($event)"/>
+
+                </div>
+            </div>
+        </div>    
+    
+    </section>
+</section>

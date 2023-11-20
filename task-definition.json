@@ -1,0 +1,32 @@
+{
+  "containerDefinitions": [
+    {
+      "name": "vendedores",
+      "image": "838855318882.dkr.ecr.us-east-1.amazonaws.com/social_commerce:latest",
+      "cpu": 2,
+      "memory": 6,
+      "portMappings": [
+        {
+          "containerPort": "8080",
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true,
+      "environment": [],
+      "mountPoints": [],
+      "volumesFrom": [],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "secretOptions": null,
+        "options": {
+          "awslogs-group": "/ecs/PDC-FrontAdmin",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ],
+  "family": "PDC-FrontAdmin",
+  "volumes": [],
+  "placementConstraints": []
+}

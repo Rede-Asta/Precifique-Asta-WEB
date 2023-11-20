@@ -1,0 +1,105 @@
+@import './colors';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import '~sass-rem';
+@import '../../../node_modules/material-icons/iconfont/material-icons.css';
+
+//COMPONENTS
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+.swal2-container {
+    z-index: 9999999 !important;
+}
+
+.title-modal {
+    font-size: 25px !important;
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    margin-bottom: 0px;
+    margin-right: 11px;
+    vertical-align: middle;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    height: 11px;
+    width: 27px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $app-bg;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: -1px;
+    bottom: -2.3px;
+    background-color: $app-bg;
+    transition: .4s;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.24), 0 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+input:checked+.slider {
+    background-color: $secondary;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px $secondary;
+}
+
+input:checked+.slider:before {
+    background-color: $secondary;
+}
+
+input:focus+.slider:before {
+    box-shadow: 0 0 1px $secondary;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.pac-container, .pac-logo {
+    z-index: 999999 !important;
+}
+
+.pac-container-search {
+    margin-top: 60px !important;
+    border-radius: 6px !important;
+    .pac-item {
+        cursor: pointer !important;
+    }
+}

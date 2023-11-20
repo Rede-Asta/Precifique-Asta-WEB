@@ -1,0 +1,15 @@
+version: "2"
+
+ 
+
+services:
+  adminfront:
+    image: adminfrontend
+    ports:
+      - "8090:8080"
+    restart: always
+    networks:
+      docker-elk_elk:
+networks:
+  docker-elk_elk:
+    external: true
