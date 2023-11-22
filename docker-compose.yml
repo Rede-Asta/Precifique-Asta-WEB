@@ -3,7 +3,7 @@ version: "2"
  
 
 services:
-  adminfront:
+  precifiquefront:
     image: precifique
     ports:
       - "8090:8080"

@@ -19,14 +19,14 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/PDC-FrontAdmin",
+          "awslogs-group": "/ecs/PDC-Frontprecifique",
           "awslogs-region": "us-east-1",
           "awslogs-stream-prefix": "ecs"
         }
       }
     }
   ],
-  "family": "PDC-FrontAdmin",
+  "family": "PDC-Frontprecifique",
   "volumes": [],
   "placementConstraints": []
 }

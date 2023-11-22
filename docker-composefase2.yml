@@ -3,7 +3,7 @@ version: "2"
  
 
 services:
-  adminfase2:
+  precifiquefase2:
     image: fase2
     ports:
       - "8091:8080"

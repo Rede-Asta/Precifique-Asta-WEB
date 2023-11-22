@@ -76,7 +76,7 @@ Vue.use(VueGtm, {
 });
 // Vue.use(ApmVuePlugin, {
 //   config: {
-//     serviceName: 'Frontend - Admin Dev',
+//     serviceName: 'Frontend - precifique Dev',
 //     serverUrl: 'https://apm.asta.pertinhodecasa.com.br',
 //     environment: environment.isDevelopment() ? 'development' : 'production',
 //   },
