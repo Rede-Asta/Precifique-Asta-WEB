@@ -3,8 +3,8 @@ version: "2"
  
 
 services:
-  devadminfrontend:
-    image: devadminfrontend
+  devprecifique:
+    image: devprecifique
     ports:
       - "9191:8080"
     restart: always

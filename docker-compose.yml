@@ -4,7 +4,7 @@ version: "2"
 
 services:
   adminfront:
-    image: adminfrontend
+    image: precifique
     ports:
       - "8090:8080"
     restart: always

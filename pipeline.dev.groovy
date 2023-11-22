@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build'){
-        sh('docker build -t devadminfrontend . --no-cache')
+        sh('docker build -t devprecifique . --no-cache')
     }
    
     stage('Start'){

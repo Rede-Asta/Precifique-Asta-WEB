@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build'){
-        sh('docker build -t adminfrontend . --no-cache')
+        sh('docker build -t precifique . --no-cache')
     }
    
     stage('Start'){
