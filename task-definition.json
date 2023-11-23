@@ -67,7 +67,7 @@
         "FARGATE"
     ],
     "cpu": "512",
-    "memory": "1536",
+    "memory": "1024",
     "tags": [
         {
             "key": "Project",
