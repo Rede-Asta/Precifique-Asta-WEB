@@ -1,32 +1,77 @@
 {
-  "containerDefinitions": [
-    {
-      "name": "vendedores",
-      "image": "838855318882.dkr.ecr.us-east-1.amazonaws.com/social_commerce:latest",
-      "cpu": 2,
-      "memory": 6,
-      "portMappings": [
+    "containerDefinitions": [
         {
-          "containerPort": "8080",
-          "protocol": "tcp"
+            "name": "RecuperarSenha",
+            "image": "261113772781.dkr.ecr.us-east-1.amazonaws.com/precifique_senha:latest",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "name": "recuperarsenha-8080-tcp",
+                    "containerPort": 8080,
+                    "hostPort": 8080,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-create-group": "true",
+                    "awslogs-group": "/ecs/Precifique-RecuperarSenha",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs"
+                },
+                "secretOptions": []
+            }
         }
-      ],
-      "essential": true,
-      "environment": [],
-      "mountPoints": [],
-      "volumesFrom": [],
-      "logConfiguration": {
-        "logDriver": "awslogs",
-        "secretOptions": null,
-        "options": {
-          "awslogs-group": "/ecs/PDC-Frontprecifique",
-          "awslogs-region": "us-east-1",
-          "awslogs-stream-prefix": "ecs"
+    ],
+    "family": "Precifique-RecuperarSenha",
+    "executionRoleArn": "arn:aws:iam::261113772781:role/ECSTaskContainerDefault",
+    "networkMode": "awsvpc",
+    "volumes": [],
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
         }
-      }
-    }
-  ],
-  "family": "PDC-Frontprecifique",
-  "volumes": [],
-  "placementConstraints": []
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "512",
+    "memory": "1536",
+    "tags": [
+        {
+            "key": "Project",
+            "value": "Precifique"
+        }
+    ]
 }
