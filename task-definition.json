@@ -4,14 +4,6 @@
             "name": "RecuperarSenha",
             "image": "261113772781.dkr.ecr.us-east-1.amazonaws.com/precifique_senha:latest",
             "cpu": 0,
-            "portMappings": [
-                {
-                    "name": "recuperarsenha-8080-tcp",
-                    "containerPort": 80,
-                    "hostPort": 80,
-                    "protocol": "tcp"
-                }
-            ],
             "essential": true,
             "environment": [],
             "mountPoints": [],
