@@ -7,7 +7,7 @@
       "memory": 6,
       "portMappings": [
         {
-          "containerPort": "80",
+          "containerPort": "443",
           "protocol": "tcp"
         }
       ],
