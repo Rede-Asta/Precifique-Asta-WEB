@@ -6,7 +6,7 @@ services:
   precifiquefase2:
     image: fase2
     ports:
-      - "8091:8080"
+      - "8091:80"
     restart: always
     networks:
       docker-elk_elk:
