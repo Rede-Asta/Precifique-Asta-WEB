@@ -6,7 +6,7 @@ services:
   precifiquefront:
     image: precifique
     ports:
-      - "8090:443"
+      - "8090:80"
     restart: always
     networks:
       docker-elk_elk:
