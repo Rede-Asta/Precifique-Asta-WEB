@@ -1,7 +1,7 @@
 {
     "containerDefinitions": [
         {
-            "name": "RecuperarSenha",
+            "name": "PrecifiqueWEB",
             "image": "261113772781.dkr.ecr.us-east-1.amazonaws.com/precifique_senha:latest",
             "cpu": 0,
             "essential": true,
